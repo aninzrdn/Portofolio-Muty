@@ -1,0 +1,88 @@
+.jumbotron {
+	padding-top: 6rem;
+	background-color: #dc8addff;
+}
+#projects {
+	background-color: #dc8addff;
+}
+section {
+	padding-top: 5rem;
+}
+
+#about {
+    background: linear-gradient(to bottom, #004d40, #000000);
+    padding-top: 40px; /* Sesuaikan dengan kebutuhan */
+    padding-bottom: 40px; /* Sesuaikan dengan kebutuhan */
+  }
+
+  .jumbotron {
+	background: linear-gradient(to bottom, #004d40, #000000);
+	padding: 40px 0;
+}
+
+.icon-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 0; /* Jarak atas dan bawah */
+}
+
+.icon-center i {
+	font-size: 2rem; /* Ukuran ikon */
+	color: white;
+}
+
+.lead-text {
+	font-size: 4rem; /* Ukuran teks IT - UI/UX */
+	color: white;
+}
+
+body, html {
+	height: 100%;
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+
+.footer {
+  background: linear-gradient(to bottom, #008080, #000000);
+  color: white;
+  padding-top: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #cccccc;
+}
+
+.footer .icon {
+  margin-right: 10px;
+}
+
+.footer-section {
+  padding: 20px 0;
+  color: #fcf9f9;
+}
+
+/* Background color for different sections */
+.location-section, 
+.contact-section, 
+.follow-me-section {
+  background: inherit; /* Inherit the background from the parent .footer */
+}
+
+/* Additional styling for copyright section */
+.footer-copyright {
+  background: linear-gradient(to right, #333, #444);
+  color: #fff;
+}
+
+/* Icon styles */
+.footer-icon {
+  font-size: 20px;
+  margin-right: 5px;
+}
